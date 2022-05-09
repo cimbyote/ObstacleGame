@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch ObstacleGame (Debug)",
+			"request": "launch",
+			"program": "E:\\Unreal Projects\\ObstacleGame\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "ObstacleGame Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "D:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleGame (DebugGame)",
+			"request": "launch",
+			"program": "E:\\Unreal Projects\\ObstacleGame\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "ObstacleGame Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "D:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleGame (Development)",
+			"request": "launch",
+			"program": "E:\\Unreal Projects\\ObstacleGame\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "ObstacleGame Win64 Development Build",
+			"args": [
+			],
+			"cwd": "D:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleGame (Test)",
+			"request": "launch",
+			"program": "E:\\Unreal Projects\\ObstacleGame\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "ObstacleGame Win64 Test Build",
+			"args": [
+			],
+			"cwd": "D:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleGame (Shipping)",
+			"request": "launch",
+			"program": "E:\\Unreal Projects\\ObstacleGame\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "ObstacleGame Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "D:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleGameEditor (Debug)",
+			"request": "launch",
+			"program": "D:\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "ObstacleGameEditor Win64 Debug Build",
+			"args": [
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject"
+			],
+			"cwd": "D:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleGameEditor (DebugGame)",
+			"request": "launch",
+			"program": "D:\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "ObstacleGameEditor Win64 DebugGame Build",
+			"args": [
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject"
+			],
+			"cwd": "D:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleGameEditor (Development)",
+			"request": "launch",
+			"program": "D:\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "ObstacleGameEditor Win64 Development Build",
+			"args": [
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject"
+			],
+			"cwd": "D:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "D:\\Unreal\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "D:\\Unreal\\UE_5.0"
+		}
+	]
+}

@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ObstacleGame Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGame Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGame Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGame Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Test",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Test",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGame Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Test",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Shipping",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Shipping",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGame Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGame",
+				"Win64",
+				"Shipping",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Debug",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Debug",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGame IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Debug",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"DebugGame",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"DebugGame",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGame IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"DebugGame",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Development",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Development",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGame IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Development",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Test",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Test",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGame IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Test",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Shipping",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Shipping",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGame IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGame IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGame",
+				"IOS",
+				"Shipping",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGameEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGameEditor",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGameEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGameEditor",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGameEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGameEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGameEditor",
+				"Win64",
+				"Debug",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGameEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGameEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGameEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGameEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGameEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGameEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGameEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGameEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGameEditor",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGameEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleGameEditor",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleGameEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleGameEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleGameEditor",
+				"Win64",
+				"Development",
+				"E:\\Unreal Projects\\ObstacleGame\\ObstacleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		}
+	]
+}

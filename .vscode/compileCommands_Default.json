@@ -1,0 +1,27 @@
+[
+	{
+		"file": "E:\\Unreal Projects\\ObstacleGame\\Source\\ObstacleGame\\MovingPlatform.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @\"E:\\Unreal Projects\\ObstacleGame\\.vscode\\compileCommands_Default\\ObstacleGame.205.rsp\"",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Unreal Projects\\ObstacleGame\\Source\\ObstacleGame\\MovingPlatform.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @\"E:\\Unreal Projects\\ObstacleGame\\.vscode\\compileCommands_Default\\ObstacleGame.205.rsp\"",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Unreal Projects\\ObstacleGame\\Source\\ObstacleGame\\ObstacleGame.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @\"E:\\Unreal Projects\\ObstacleGame\\.vscode\\compileCommands_Default\\ObstacleGame.205.rsp\"",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Unreal Projects\\ObstacleGame\\Source\\ObstacleGame\\ObstacleGame.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @\"E:\\Unreal Projects\\ObstacleGame\\.vscode\\compileCommands_Default\\ObstacleGame.205.rsp\"",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Unreal Projects\\ObstacleGame\\Source\\ObstacleGame\\ObstacleGame.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @\"E:\\Unreal Projects\\ObstacleGame\\.vscode\\compileCommands_Default\\ObstacleGame.205.rsp\"",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	}
+]

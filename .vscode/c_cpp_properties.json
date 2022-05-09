@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "ObstacleGameEditor Editor Win64 Development (ObstacleGame)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\Unreal Projects\\ObstacleGame\\.vscode\\compileCommands_ObstacleGame.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\Unreal Projects\\ObstacleGame\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
